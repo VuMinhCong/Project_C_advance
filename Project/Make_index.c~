@@ -1,0 +1,13 @@
+#include<stdlib.h>
+#include"btree.h"
+#include<string.h>
+
+int main()
+{
+  BTA *root;
+  FILE *fp;
+  char *line, *meaning, *word, *tmpmeaning;
+  line = (char*)calloc(230, sizeof(char));
+  word = (char*)calloc(81, sizeof(char));
+  meaning = (char*)calloc(230, sizeof(char));
+}
